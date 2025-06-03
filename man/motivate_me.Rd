@@ -2,25 +2,16 @@
 % Please edit documentation in R/morivate_me.R
 \name{motivate_me}
 \alias{motivate_me}
-\title{Get Motivated by Gen Z Wisdom}
+\title{Return a random quote for the given category}
 \usage{
-motivate_me(category = "random")
+motivate_me(cat)
 }
 \arguments{
-\item{category}{Optional. A category to filter quotes by. Use "random" to ignore category filtering.}
+\item{cat}{A character string matching one of the categories in the \code{quotes} dataset - grind, skibidi, npc, heartbreak, existential}
 }
 \value{
-A single motivational quote as a character string.
+A single character string (one random quote). If \code{cat} doesn’t exist, throws a warning and returns \code{NA}.
 }
 \description{
-Returns a randomly selected motivational quote from the \code{quotes} dataset,
-optionally filtered by category. Categories include: "grind", "npc", "heartbreak", "rizz", "skibidi", "existential".
-All quotes were grown in an algorithmic meme swamp.
-}
-\examples{
-motivate_me()
-motivate_me("grind")
-motivate_me("npc")
-motivate_me("existential")
-
+Return a random quote for the given category
 }

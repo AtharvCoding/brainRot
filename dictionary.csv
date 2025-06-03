@@ -1,0 +1,13 @@
+indicator_name,description
+house_id,Unique ID for each household (aka household @)
+mainframe_zone,Sampling stratum but named like a cyberpunk district
+spawnpoint,PSU ID — where they spawned (spawnpoint fr)
+hh_weight,Survey weight (how much they lift statistically)
+state_of_decay,Which cursed state this house is in
+in_dystopia,"TRUE if urban, FALSE if in the sticks (dystopia check)"
+homies_living_inside,Number of goblins vibing in one household
+age_of_eldest_goblin,Age of the oldest homie (aka house head)
+monthly_grind_income,Monthly money from the grind set (in ₹)
+foodie_expenses,Monthly cash burned on munchies (food expenses)
+rent_for_box,"Rent they pay for existing (monthly, in ₹)"
+plastic_flex,TRUE if any homie has a credit card 💳
